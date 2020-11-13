@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <!--todo: add alt text to all images -->
   <header>
     <div class="container">
       <!-- todo: center items in this container -->
@@ -61,103 +62,112 @@
   </header>
   <main>
     <section>
-      <div class="container-fluid mainHero text-color-white">
-        <!-- todo: fix text-overflow issue on small screen -->
-        <div class="d-flex flex-column bd-highlight mb-3">
-          <div class="p-2">
-            <h2 class="h2">Lorem ipsum dolor sit.</h2>
-          </div>
-          <div class="p-2 ">
-            <p class="w-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit iusto, eveniet illo sunt enim quia natus repudiandae molestiae, porro ipsum. Dolores adipisci ducimus dolorum necessitatibus quos nobis totam
+      <!-- todo: center text -->
+      <!-- MAIN HERO -->
+      <!-- todo: decrease height -->
+      <div class="container-fluid px-0">
+        <div class="card bg-dark text-white border-0">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit iusto, eveniet illo sunt enim quia natus repudiandae molestiae, porro ipsum. Dolores adipisci ducimus dolorum necessitatibus quos nobis totam
               impedit.30</p>
-            <!-- todo make this responsive -->
-          </div>
-          <div class="p-2">
-            <button class="btn btn-sm btn-primary">Clickable Button</button>
+            <p class="card-text">Last updated 3 mins ago</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="container pt-3 my-3">
-      <!-- todo: make this stack responsively -->
-      <div class="row py-0">
-        <div class="col  px-0">
-          <div class="container-fluid pt-2">
-            <div class="row">
-              <div><small>Storyboard</small></div>
-            </div>
-            <div class="row">
-              <h3>Title section</h3>
-            </div>
-            <div class="row">
+      <section class="container pt-3 my-3">
+        <!-- Storyboard 1 -->
+        <!-- todo: make this stack responsively -->
+        <div class="row py-0">
+          <div class="col  px-0">
+            <div class="container-fluid pt-2">
+              <div class="row">
+                <div><small>Storyboard</small></div>
+              </div>
+              <div class="row">
+                <h3>Title section</h3>
+              </div>
+              <div class="row">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, amet rerum minus eaque quisquam ipsum quibusdam voluptatibus at est hic voluptate tempora magni magnam dolor delectus, deserunt, sunt animi dignissimos.</p>
-            </div>
-            <div class="row">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, tempore excepturi rerum, nemo, eligendi, nisi animi accusantium exercitationem provident laborum reprehenderit ullam. Esse laborum veritatis, odit reiciendis cum voluptas dicta!</p>
+              </div>
+              <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, tempore excepturi rerum, nemo, eligendi, nisi animi accusantium exercitationem provident laborum reprehenderit ullam. Esse laborum veritatis, odit reiciendis cum
+                  voluptas
+                  dicta!</p>
+              </div>
             </div>
           </div>
+          <div class="col">
+            <img class="img-fluid pt-3" src="https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=930&q=80" alt="">
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="https://images.unsplash.com/photo-1572274407649-6cb883740677?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+          </div>
         </div>
-        <div class="col">
-          <img class = "img-fluid pt-3" src="https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=930&q=80" alt="">
-        </div>
-        <div class="col">
-          <img class = "img-fluid" src="https://images.unsplash.com/photo-1572274407649-6cb883740677?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+      </section>
+
+      <!-- Sales pitch hero 1 -->
+      <div class="container-fluid px-0 ">
+          <div class="card text-white text-center border-0">
+            <img src="imgs/app.jpeg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Sales Pitch Title</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit iusto, eveniet illo sunt enim quia natus repudiandae molestiae, porro ipsum. Dolores adipisci ducimus dolorum necessitatibus quos nobis totam
+                impedit.30</p>
+              <button>Clickable Button</button>
+            </div>
         </div>
       </div>
-    </section>
-    <section class="container firstSalesPitchHero">
-      <h3>Sales Pitch Title</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam itaque blanditiis veritatis impedit veniam!</p>
-      <button>Clickable Button</button>
-    </section>
-    <section class="container">
-      <h3>Work Examples</h3>
-      <div>
-        <h4>Example 1</h4>
-        <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
-      </div>
-      <div>
-        <h4>Example 2</h4>
-        <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
-      </div>
-      <div>
-        <h4>Example 3</h4>
-        <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
-      </div>
-      <button>Clickable Button</button>
-    </section>
-    <section class="container secondSalesPitchHero">
-      <h3>Sales Pitch Title 2 </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam itaque blanditiis veritatis impedit veniam!</p>
-      <button>Clickable Button</button>
-    </section>
-    <section class="container">
-      <form class="" action="index.html" method="post">
+
+      <section class="container">
+        <h3>Work Examples</h3>
         <div>
-          <label for="name">Name:</label>
-          <input type="text" name="name">
+          <h4>Example 1</h4>
+          <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
         </div>
         <div>
-          <label for="email">Email:</label>
-          <input type="email" name="email">
+          <h4>Example 2</h4>
+          <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
         </div>
         <div>
-          <label for="phone">Phone:</label>
-          <input type="tel" name="phone">
+          <h4>Example 3</h4>
+          <p><b>Name of Example</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, praesentium.</p>
         </div>
-        <div>
-          <label for="date">Date:</label>
-          <input type="date" name="date">
-        </div>
-        <div>
-          <label for="notes">Additional Info:</label>
-          <textarea name="notes" rows="10" cols="50"></textarea>
-        </div>
-        <div>
-          <button type="submit"> Form Submit</button>
-        </div>
-      </form>
-    </section>
+        <button>Clickable Button</button>
+      </section>
+      <section class="container secondSalesPitchHero">
+        <h3>Sales Pitch Title 2 </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ullam itaque blanditiis veritatis impedit veniam!</p>
+        <button>Clickable Button</button>
+      </section>
+      <section class="container">
+        <form class="" action="index.html" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone">
+          </div>
+          <div>
+            <label for="date">Date:</label>
+            <input type="date" name="date">
+          </div>
+          <div>
+            <label for="notes">Additional Info:</label>
+            <textarea name="notes" rows="10" cols="50"></textarea>
+          </div>
+          <div>
+            <button type="submit"> Form Submit</button>
+          </div>
+        </form>
+      </section>
   </main>
   <footer>
     <section class="container footerHero">
